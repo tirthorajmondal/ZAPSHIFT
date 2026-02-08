@@ -31,7 +31,7 @@ const HowItWorks = () => {
             <h3 className='text-3xl font-extrabold text-secondary mb-8'>How It Works</h3>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
                 {
-                    worksData.map((card, index) => <WorksCard key={index} work={card} />)
+                    worksData.map((card, index) => <WorksCard key={index} work={card} index={index + 1} />)
                 }
             </div>
 

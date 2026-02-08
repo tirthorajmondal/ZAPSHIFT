@@ -6,18 +6,32 @@ import bannerImg3 from '../../../assets/banner/banner3.png';
 
 const Banner = () => {
     return (
-        <Carousel autoPlay='true' infiniteLoop='true' showThumbs={false} onSwipeMove={true} className="my-4 mb-8 md:my-8 lg:my-14">
+        <Carousel
+            autoPlay
+            infiniteLoop
+            showThumbs={false}
+            // onSwipeMove={(e) => { console.log(e) }}
+            swipeable
+            emulateTouch
+            showStatus={false}
+            dynamicHeight
+            // showIndicators={false}
+            useKeyboardArrows
+            autoFocus
+
+            className="my-4 mb-8 md:my-8 lg:my-14 rounded-3xl">
+
             <div>
                 <img src={bannerImg1} />
-                <p className="legend">Legend 1</p>
+                {/* <p className="legend">Legend 1</p> */}
             </div>
             <div>
                 <img src={bannerImg2} />
-                <p className="legend">Legend 2</p>
+                {/* <p className="legend">Legend 2</p> */}
             </div>
             <div>
                 <img src={bannerImg3} />
-                <p className="legend">Legend 3</p>
+                {/* <p className="legend">Legend 3</p> */}
             </div>
         </Carousel>
     );

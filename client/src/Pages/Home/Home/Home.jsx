@@ -1,16 +1,22 @@
-import React from 'react';
 import Banner from '../Banner/Banner';
+import HowItWorks from '../HowItWorks/HowItWorks';
 import Services from '../Services/Services';
-import HowItWorks from './HowItWorks/HowItWorks';
-import Brands from './Brands/Brands';
+import Brands from '../Brands/Brands';
+import Benifits from '../Benifits/Benifits';
+import BecomeMarchant from '../BecomeMarchant/BecomeMarchant';
 
 const Home = () => {
     return (
         <div>
             <Banner />
-            <HowItWorks/>
+            <HowItWorks />
             <Services />
-            <Brands/>
+            <Brands />
+            <hr className='border-t-4 border-slate-400 border-dashed' />
+            <Benifits />
+            <hr className='border-t-4 border-slate-400 border-dashed' />
+            <BecomeMarchant />
+
         </div>
     );
 };
