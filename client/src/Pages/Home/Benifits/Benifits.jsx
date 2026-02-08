@@ -1,5 +1,6 @@
 import image1 from '../../../assets/benifits/live-tracking.png';
-import image2 from '../../../assets/benifits/safe-delivery.png';
+import image3 from '../../../assets/benifits/safe-delivery.png';
+import image2 from '../../../assets/benifits/customer-top.png';
 import BenifitCard from './BenifitCard';
 
 const Benifits = () => {
@@ -15,13 +16,13 @@ const Benifits = () => {
             description: "We ensure your parcels are handled with the utmost care and delivered securely to their destination. Our reliable process guarantees safe and damage-free delivery every time."
         },
         {
-            image: image2,
+            image: image3,
             title: "24/7 Call Center Support",
             description: "Our dedicated support team is available around the clock to assist you with any questions, updates, or delivery concerns—anytime you need us."
         }
     ]
     return (
-        <div className="my-24 flex flex-col gap-y-6 max-w-11/12 mx-auto">
+        <div className="my-12 md:my-24 flex flex-col gap-y-6 max-w-11/12 mx-auto">
             {
                 benefitsData.map((item, index) => <BenifitCard key={index} benifit={item} />)
             }

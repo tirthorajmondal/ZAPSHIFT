@@ -12,7 +12,7 @@ const router = createBrowserRouter([
             {
                 index: true,
                 path: '/',
-                Component: Home,
+                Component: Home
             },
             {
                 path: '/about',

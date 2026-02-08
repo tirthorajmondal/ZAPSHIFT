@@ -47,7 +47,7 @@ const Navbar = () => {
             <div className="navbar-end font-bold flex gap-x-4">
                 {/* <button onClick={() => setDarkMood(!darkMood)} className="btn btn- btn-circle bg-teal-100"><img src={darkMood ? darkMoodIcon : lightMoodIcon} className="max-w-6" /></button> */}
                 <button className="btn btn-outline px-8 py-4">Sign In</button>
-                <button className="btn btn-primary text-black px-8 py-4">Be a rider</button>
+                <button className="btn btn-primary text-black px-8 py-4 hidden lg:block">Be a rider</button>
                 <button className="btn rounded-full bg-black text-white -ml-4">{'>'}</button>
             </div>
         </header>

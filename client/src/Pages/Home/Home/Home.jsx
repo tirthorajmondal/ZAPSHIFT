@@ -4,6 +4,8 @@ import Services from '../Services/Services';
 import Brands from '../Brands/Brands';
 import Benifits from '../Benifits/Benifits';
 import BecomeMarchant from '../BecomeMarchant/BecomeMarchant';
+import CustomerSaying from '../CustomerSaying/CustomerSaying';
+import FAQ from '../FAQ/FAQ';
 
 const Home = () => {
     return (
@@ -16,7 +18,8 @@ const Home = () => {
             <Benifits />
             <hr className='border-t-4 border-slate-400 border-dashed' />
             <BecomeMarchant />
-
+            <CustomerSaying />
+            <FAQ />
         </div>
     );
 };

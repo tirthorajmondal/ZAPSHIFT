@@ -1,9 +1,8 @@
-import { Link, useNavigate } from 'react-router';
+import { Link } from 'react-router';
 import ZapShiftLogo from '../ZapShift/ZapShiftLogo';
 
 const Footer = () => {
     const links = ['Home', 'About', 'Services', 'Contact'];
-    const navigate = useNavigate();
 
 
     return (
@@ -57,7 +56,10 @@ const Footer = () => {
                 </div >
             </nav >
             <aside>
-                <p>Copyright © {new Date().getFullYear()} - Developed by <strong onClick={() => console.log('GO TO: https://tirthorajmondal.netlify.app')} className='hover:text-white/70 transition-colors duration-100 cursor-pointer'>Tirtho Raj</strong></p>
+                <p>Copyright © {new Date().getFullYear()} - Developed by <strong onClick={() => {
+                    console.log('GO TO: https://tirthorajmondal.netlify.app')
+                    // ("https://x.com/tirthorajmondal")
+                }} className='hover:text-white/70 transition-colors duration-100 cursor-pointer'>Tirtho Raj</strong></p>
             </aside>
         </footer >
     );

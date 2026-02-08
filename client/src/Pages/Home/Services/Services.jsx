@@ -7,6 +7,7 @@ import {
     FaUndo,
 } from "react-icons/fa";
 import ServiceCard from './ServiceCard';
+import SectionTitleDesc from "../../shared/SectionTitleDesc/SectionTitleDesc";
 
 
 const Services = () => {
@@ -52,15 +53,12 @@ const Services = () => {
 
     return (
         <section data-aos="fade-up" className="py-16 bg-secondary rounded-2xl my-12">
-            <div className="max-w-6xl mx-auto px-6 text-center">
-                <h2 className="text-3xl font-bold mb-3 text-white">Our Services</h2>
-                <p className="text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
-                    We provide complete logistics solutions to ensure smooth, fast, and reliable parcel delivery across Bangladesh.
-                </p>
+            <div className="max-w-6xl mx-auto px-6 ">
+                <SectionTitleDesc title={'Our Services'} desc={' We provide complete logistics solutions to ensure smooth, fast, and reliable parcel delivery across Bangladesh.'} titleStyle={'text-white'} />
 
                 <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                     {serviceData.map((service, index) => (
-                        <ServiceCard key={index} service={service} />
+                        <ServiceCard key={index} service={service} count={index + 1} />
                     ))}
                 </div>
             </div>
