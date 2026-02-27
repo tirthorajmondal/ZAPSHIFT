@@ -16,8 +16,8 @@ const Brands = () => {
     const logos = [logo1, logo2, logo3, logo4, logo5, logo6]
 
     return (
-        <section className='my-24 '>
-            <h3 className='font-extrabold text-3xl text-secondary text-center mb-10'>We've helped thousands of sales teams</h3>
+        <section className=' lg:my-24 '>
+            <h3 className='font-extrabold text-3xl text-secondary text-center'>We've helped thousands of sales teams</h3>
             <Swiper
                 modules={[Autoplay]}
                 slidesPerView="auto"
@@ -31,14 +31,15 @@ const Brands = () => {
                     pauseOnMouseEnter: true,
 
                 }}
-                className="max-w-10/12 max-h-14">
+                className="max-w-10/12 max-h-14 my-10 lg:mb-0 ">
 
                 {
-                    logos.map((logo, index) => <SwiperSlide className='max-w-max  flex justify-center items-center'><img className='h-12 opacity-70 saturate-80 hover:opacity-100 hover:saturate-150 transition-all duration-300'
-                        key={index} src={logo} /></SwiperSlide>)
+                    logos.map((logo, index) => <SwiperSlide
+                        className={`max-w-max flex justify-center items-center`}><img className='h-12 opacity-70 saturate-80 hover:opacity-100 hover:saturate-150 transition-all duration-300'
+                            key={index} src={logo} /></SwiperSlide>)
                 }
             </Swiper>
-        </section>
+        </section >
     );
 };
 

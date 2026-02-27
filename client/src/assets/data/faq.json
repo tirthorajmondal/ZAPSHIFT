@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "question": "What is ZapShift?",
+        "answer": "ZapShift is a comprehensive parcel delivery and management system that connects merchants, delivery agents, and warehouses for seamless parcel tracking and delivery across 64 districts nationwide."
+    },
+    {
+        "id": 2,
+        "question": "How do I book a parcel for delivery?",
+        "answer": "As a merchant, simply log in to your account, provide parcel details (weight, type, destination), select your delivery option, and proceed with payment. You'll receive a tracking ID immediately."
+    },
+    {
+        "id": 3,
+        "question": "What are your delivery charges?",
+        "answer": "Documents cost ৳60 (within city) or ৳80 (outside city). Non-documents up to 3kg are ৳110 (within city) or ৳150 (outside city). Additional charges apply for parcels over 3kg at ৳40/kg."
+    },
+    {
+        "id": 4,
+        "question": "How can I track my parcel?",
+        "answer": "You can track your parcel in real-time using the tracking ID provided at booking. Log in to your account to view the current status, location, and estimated delivery time."
+    },
+    {
+        "id": 5,
+        "question": "What areas do you deliver to?",
+        "answer": "ZapShift provides delivery services across all 64 districts nationwide. Whether it's within the city or outside, we have nationwide coverage to ensure your parcels reach their destination."
+    },
+    {
+        "id": 6,
+        "question": "How is delivery security ensured?",
+        "answer": "We use OTP-based secure delivery confirmation. Both the sender and receiver must verify with OTP during the delivery process to ensure secure and authentic delivery."
+    },
+    {
+        "id": 7,
+        "question": "Can I become a delivery agent?",
+        "answer": "Yes! Delivery agents earn ৳20 per delivery. Register as an agent to start accepting delivery jobs. Your responsibilities include collecting, updating status, and delivering parcels to customers."
+    },
+    {
+        "id": 8,
+        "question": "What happens if my parcel goes outside the city?",
+        "answer": "Parcels going outside the city are sent to our warehouse network. Our warehouse team then coordinates with destination-area agents to ensure timely delivery to your specified location."
+    },
+    {
+        "id": 9,
+        "question": "Do you provide refunds for failed deliveries?",
+        "answer": "If a delivery fails, please contact our support team immediately with your tracking ID. We'll investigate and provide appropriate resolution, which may include a refund or redelivery."
+    },
+    {
+        "id": 10,
+        "question": "How can I contact customer support?",
+        "answer": "Our customer support team is available through the ZapShift platform. You can submit inquiries through your account dashboard, and our team will respond promptly to resolve any issues."
+    }
+]

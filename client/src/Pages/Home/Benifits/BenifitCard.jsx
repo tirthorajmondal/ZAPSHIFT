@@ -1,8 +1,12 @@
 
-const BenifitCard = ({ benifit }) => {
+const BenifitCard = ({ benifit, index }) => {
     const { image, title, description } = benifit;
+
     return (
-        <div className='flex bg-white p-4 lg:p-8 rounded-2xl'>
+        <div
+            data-aos={(index + 1) % 2 === 0 ? "zoom-in-left" : "zoom-in-right"}
+            data-aos-once="true"
+            className='flex bg-white p-4 lg:p-8 rounded-2xl'>
             <div className="flex justify-center">
                 <img src={image} className="max-w-20 lg:max-w-40 object-contain aspect-square" alt={title} />
             </div>

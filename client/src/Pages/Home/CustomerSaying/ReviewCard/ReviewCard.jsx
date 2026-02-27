@@ -1,6 +1,6 @@
 import quotation from "../../../../assets/reviewQuote.png"
 const ReviewCard = ({ review }) => {
-    console.log(review);
+    // console.log(review);
     return (
         <div className="p-8 bg-white rounded-3xl">
             <img src={quotation} alt="" />

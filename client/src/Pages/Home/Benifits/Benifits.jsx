@@ -24,7 +24,10 @@ const Benifits = () => {
     return (
         <div className="my-12 md:my-24 flex flex-col gap-y-6 max-w-11/12 mx-auto">
             {
-                benefitsData.map((item, index) => <BenifitCard key={index} benifit={item} />)
+                benefitsData.map((item, index) => <BenifitCard
+                    index={index} //using index to dynamically change animate on scroll
+                    key={index}
+                    benifit={item} />)
             }
         </div>
     );

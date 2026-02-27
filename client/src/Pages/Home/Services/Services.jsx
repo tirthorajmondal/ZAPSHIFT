@@ -52,7 +52,10 @@ const Services = () => {
 
 
     return (
-        <section data-aos="fade-up" className="py-16 bg-secondary rounded-2xl my-12">
+        <section
+            data-aos="fade-up"
+            data-aos-once="true"
+            className="py-16 bg-secondary rounded-2xl my-12">
             <div className="max-w-6xl mx-auto px-6 ">
                 <SectionTitleDesc title={'Our Services'} desc={' We provide complete logistics solutions to ensure smooth, fast, and reliable parcel delivery across Bangladesh.'} titleStyle={'text-white'} />
 
